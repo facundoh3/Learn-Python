@@ -196,7 +196,7 @@ def filter_messages(messages):
     counters = []  # Lista para almacenar los contadores de palabras 'dang' eliminadas
     
     for message in messages:
-    words = message.split()  # Divide el mensaje en palabras
+        words = message.split()  # Divide el mensaje en palabras
         
         clean_words = []  # Lista para almacenar las palabras no prohibidas de este mensaje
         count = 0  # Contador de palabras 'dang' eliminadas en este mensaje

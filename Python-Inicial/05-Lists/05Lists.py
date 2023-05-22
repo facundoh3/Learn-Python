@@ -244,7 +244,7 @@ print(players)
 print(f"Red team has {len(red_team)} players")
 print(f"Blue team has {len(blue_team)} players")
 
-#Ejercicio 2.8
+#Ejercicio 2.8 (Encontrar coincidencias en los arrays)
 answer_sheet = ["A", "A", "C", "D", "D", "B", "C"]
 student_answers = ["A", "B", "C", "A", "D", "B", "C"]
 z=0;
@@ -258,3 +258,4 @@ for i in range(0,len(answer_sheet)):
 percentage = 0    
 percentage = z *100 / len(answer_sheet)
 print(f"The student answered correctly on {percentage}% of the questions")
+
